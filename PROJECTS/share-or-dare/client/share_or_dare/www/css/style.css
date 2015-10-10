@@ -1,1 +1,38 @@
 /* Empty. Add your own CSS if you like */
+body {
+  font-family: 'Almendra Display', cursive;
+}
+
+.padding {
+  background-color: #BFB7A4;
+}
+
+.item {
+  font-size: 20px;
+}
+
+.bar.bar-stable .title {
+  font-size: 40px;
+  font-color: black;
+}
+
+.card .item:first-child {
+  background-color: #D10096;
+  font: #000000;
+}
+
+.bar.bar-stable {
+  background-color: #2E2B23;
+  /*background-color: #D10096;*/
+  border: 2px solid #680000;
+}
+
+.bar.bar-stable .title {
+  color: #D10096;
+  font-size: 50px;
+
+}
+
+.card .item:last-child, .list-inset .item:last-child {
+  background-color: #1C1913;
+}
